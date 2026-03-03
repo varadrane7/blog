@@ -8,7 +8,7 @@ export default async () => {
       type: "div",
       props: {
         style: {
-          background: "#fefbfb",
+          background: "#0d1117",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -23,8 +23,8 @@ export default async () => {
                 position: "absolute",
                 top: "-1px",
                 right: "-1px",
-                border: "4px solid #000",
-                background: "#ecebeb",
+                border: "4px solid #30363d",
+                background: "#161b22",
                 opacity: "0.9",
                 borderRadius: "4px",
                 display: "flex",
@@ -39,8 +39,8 @@ export default async () => {
             type: "div",
             props: {
               style: {
-                border: "4px solid #000",
-                background: "#fefbfb",
+                border: "4px solid #58a6ff",
+                background: "#0d1117",
                 borderRadius: "4px",
                 display: "flex",
                 justifyContent: "center",
@@ -77,14 +77,18 @@ export default async () => {
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 72, fontWeight: "bold" },
+                              style: {
+                                fontSize: 72,
+                                fontWeight: "bold",
+                                color: "#e6edf3",
+                              },
                               children: SITE.title,
                             },
                           },
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 28 },
+                              style: { fontSize: 28, color: "#8b949e" },
                               children: SITE.desc,
                             },
                           },
@@ -104,7 +108,11 @@ export default async () => {
                         children: {
                           type: "span",
                           props: {
-                            style: { overflow: "hidden", fontWeight: "bold" },
+                            style: {
+                              overflow: "hidden",
+                              fontWeight: "bold",
+                              color: "#58a6ff",
+                            },
                             children: new URL(SITE.website).hostname,
                           },
                         },
