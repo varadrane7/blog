@@ -18,7 +18,7 @@ Flash storage has become the default choice for high-performance data infrastruc
 
 ## The Problem With Concentration
 
-A large share of global NAND flash manufacturing is clustered in a single geographic region. That means even a minor shift in demand — or a moderate geopolitical disruption — can ripple into significant price spikes and availability crunches. The article notes that prices have already risen substantially *without* a major supply chain event. That's the tell. The system is already under strain at baseline.
+A large share of global NAND flash manufacturing is clustered in a single geographic region. That means even a minor shift in demand — or a moderate geopolitical disruption — can ripple into significant price spikes and availability crunches. The article notes that prices have already risen substantially _without_ a major supply chain event. That's the tell. The system is already under strain at baseline.
 
 Compare this to hard-disk drives, where manufacturing is more geographically distributed. HDDs give organizations more flexibility precisely because no single region dominates production.
 

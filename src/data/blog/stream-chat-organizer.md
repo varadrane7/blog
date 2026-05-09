@@ -25,6 +25,7 @@ I built **Stream Chat Organizer** to fix that — and keep it simple while doing
 Live stream chats have a core UX problem: they're designed for volume, not clarity. Everything is equal. A question from a regular viewer looks exactly the same as a passing comment from someone who won't interact again. There's no hierarchy, no persistence, and no way to thread a conversation.
 
 I wanted:
+
 - A way to **mark messages as read** so I could track what I'd already processed
 - The ability to **pin messages** to keep important ones visible
 - **Quote/reply context** so conversations made more sense visually

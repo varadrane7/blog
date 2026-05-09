@@ -74,6 +74,7 @@ Training on the annotated dataset, the model learned to differentiate severity l
 For comparison, we also implemented **YOLOv5** — a real-time object detection model. Rather than classifying the whole frame, YOLOv5 localizes cracks within the frame and classifies each detected region independently.
 
 This approach offers:
+
 - **Bounding box output** — You know not just that a crack exists, but exactly where in the frame
 - **Multiple detections per frame** — Useful when a surface has cracks of different severities in the same shot
 - **Confidence scores** per detection for thresholding
@@ -94,12 +95,12 @@ On-device inference with TFLite ran fast enough for usable real-time feedback on
 
 ## Results and Comparison
 
-| Metric | Classification Model | YOLOv5 |
-|--------|---------------------|--------|
-| Inference speed | Fast (frame-level) | Fast (real-time capable) |
-| Localization | No | Yes (bounding boxes) |
-| Multi-crack per frame | No | Yes |
-| Deployment complexity | Low | Medium |
+| Metric                | Classification Model | YOLOv5                   |
+| --------------------- | -------------------- | ------------------------ |
+| Inference speed       | Fast (frame-level)   | Fast (real-time capable) |
+| Localization          | No                   | Yes (bounding boxes)     |
+| Multi-crack per frame | No                   | Yes                      |
+| Deployment complexity | Low                  | Medium                   |
 
 The classification model had higher raw accuracy on severity prediction when cracks were cleanly centered. YOLOv5 performed better in realistic conditions with partial frames, occlusion, and multiple cracks in view.
 
