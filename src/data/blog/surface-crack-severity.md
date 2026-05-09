@@ -3,7 +3,7 @@ author: Varad Rane
 pubDatetime: 2022-08-14T10:00:00Z
 title: "Detecting and Classifying Surface Crack Severity with Deep Learning"
 slug: surface-crack-severity-detection
-featured: true
+featured: false
 draft: false
 tags:
   - machine-learning
