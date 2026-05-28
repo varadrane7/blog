@@ -3,7 +3,7 @@ author: Varad Rane
 pubDatetime: 2025-01-03T12:00:00Z
 title: "Stream Chat Organizer: Building a Chrome Extension for Live Chat Readability"
 slug: stream-chat-organizer-chrome-extension
-featured: true
+featured: false
 draft: false
 tags:
   - chrome-extension
