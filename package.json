@@ -4,7 +4,7 @@
   "version": "5.5.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
+    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/ && node scripts/generate-markdown.mjs",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
@@ -41,6 +41,7 @@
     "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
+    "turndown": "^7.2.4",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.51.0"
   },

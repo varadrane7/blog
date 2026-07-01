@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "search-blog",
+      "type": "skill-md",
+      "description": "Allows searching through blog posts and articles on Varad Rane's blog.",
+      "url": "https://blog.varadrane.com/.well-known/agent-skills/search-blog/SKILL.md",
+      "digest": "sha256:8c2845fc1d8b5dc17420e0bc43c67fcc542affd75c6a1b11ed0219b8c77b9840"
+    }
+  ]
+}

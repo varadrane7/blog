@@ -1,0 +1,8 @@
+{
+  "resource": "https://blog.varadrane.com/api",
+  "authorization_servers": [
+    "https://blog.varadrane.com"
+  ],
+  "scopes_supported": ["read", "write"],
+  "bearer_methods_supported": ["header"]
+}

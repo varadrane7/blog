@@ -172,5 +172,56 @@ const structuredData = {
 
     <!-- Load full theme logic -->
     <script src="../scripts/theme.ts"></script>
+
+    <!-- WebMCP script -->
+    <script is:inline>
+      (function() {
+        if (typeof navigator !== 'undefined' && 'modelContext' in navigator) {
+          const tools = [
+            {
+              name: "search_posts",
+              description: "Search blog posts by query",
+              inputSchema: {
+                type: "object",
+                properties: {
+                  query: { type: "string", description: "The search query" }
+                },
+                required: ["query"]
+              },
+              execute: async ({ query }) => {
+                window.location.href = `/search?query=${encodeURIComponent(query)}`;
+                return { content: [{ type: "text", text: `Redirected to search results for "${query}"` }] };
+              }
+            },
+            {
+              name: "navigate_home",
+              description: "Navigate to the blog homepage",
+              inputSchema: {
+                type: "object",
+                properties: {}
+              },
+              execute: async () => {
+                window.location.href = "/";
+                return { content: [{ type: "text", text: "Redirected to homepage" }] };
+              }
+            }
+          ];
+
+          try {
+            if (typeof navigator.modelContext.provideContext === 'function') {
+              navigator.modelContext.provideContext({ tools });
+              console.log("WebMCP tools registered via provideContext");
+            } else if (typeof navigator.modelContext.registerTool === 'function') {
+              for (const tool of tools) {
+                navigator.modelContext.registerTool(tool);
+              }
+              console.log("WebMCP tools registered via registerTool");
+            }
+          } catch (e) {
+            console.error("Failed to register WebMCP tools:", e);
+          }
+        }
+      })();
+    </script>
   </body>
 </html>

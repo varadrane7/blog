@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://blog.varadrane.com/api",
+      "service-desc": [
+        {
+          "href": "https://blog.varadrane.com/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://blog.varadrane.com/about",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://blog.varadrane.com/api/health",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}
