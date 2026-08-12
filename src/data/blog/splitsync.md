@@ -1,6 +1,7 @@
 ---
 author: Varad
 pubDatetime: 2026-05-28T14:36:00Z
+modDatetime: 2026-08-12T19:47:00Z
 title: "SplitSync: A Privacy-First, Proportional Bill Splitter for Splitwise"
 slug: splitsync
 featured: true
@@ -18,6 +19,16 @@ description: >
 [View SplitSync on GitHub](https://github.com/varadrane7/bill-splitter)
 
 > **A premium, privacy-first, itemized bill-splitting PWA that seamlessly integrates with Splitwise.**
+
+## Update: Discontinuing Splitwise Integration
+
+> **August 2026 Update**: The Splitwise integration feature in SplitSync is being discontinued.
+>
+> According to the [Splitwise Developer Terms of Use](https://dev.splitwise.com/#section/Terms-of-Use/Overview):
+>
+> > *"Splitwise may impose conditions on the use of the Self-Serve API, including, for example, maintaining an active Splitwise Pro subscription."*
+>
+> Since I do not maintain an active Splitwise Pro subscription, I can no longer use the API and am stopping the Splitwise authentication and sync integration. SplitSync will continue to operate as a standalone, privacy-first itemized bill splitter.
 
 We've all been there: a large group dinner, a massive receipt, and the inevitable headache of figuring out who owes what. While apps like Splitwise are great for tracking debts, entering a complex, itemized receipt with tax, tip, and shared items is still a tedious manual process.
 
