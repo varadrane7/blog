@@ -1,7 +1,7 @@
 ---
 author: Varad
 pubDatetime: 2026-05-28T14:36:00Z
-modDatetime: 2026-08-12T19:47:00Z
+modDatetime: 2026-08-17T17:10:00Z
 title: "SplitSync: A Privacy-First, Proportional Bill Splitter for Splitwise"
 slug: splitsync
 featured: true
@@ -20,15 +20,13 @@ description: >
 
 > **A premium, privacy-first, itemized bill-splitting PWA that seamlessly integrates with Splitwise.**
 
-## Update: Discontinuing Splitwise Integration
+## Update: Splitwise Integration Preserved!
 
-> **August 2026 Update**: The Splitwise integration feature in SplitSync is being discontinued.
+> **August 2026 Update**: Great news! The Splitwise integration in SplitSync is active and operational.
 >
-> According to the [Splitwise Developer Terms of Use](https://dev.splitwise.com/#section/Terms-of-Use/Overview):
+> Per the [Splitwise Developer Terms of Use](https://dev.splitwise.com/#section/Terms-of-Use/Overview), active API access requires maintaining a Splitwise Pro subscription. I reached out to the Splitwise support team, and they were gracious enough to grant me a complimentary Splitwise Pro subscription through the end of the year.
 >
-> > *"Splitwise may impose conditions on the use of the Self-Serve API, including, for example, maintaining an active Splitwise Pro subscription."*
->
-> Since I do not maintain an active Splitwise Pro subscription, I can no longer use the API and am stopping the Splitwise authentication and sync integration. SplitSync will continue to operate as a standalone, privacy-first itemized bill splitter.
+> Huge thanks to the Splitwise team for supporting independent developer projects! Thanks to their gesture, SplitSync will continue providing direct OAuth authentication and seamless expense syncing, allowing me to keep building creative bill-splitting use cases that complement the official platform.
 
 We've all been there: a large group dinner, a massive receipt, and the inevitable headache of figuring out who owes what. While apps like Splitwise are great for tracking debts, entering a complex, itemized receipt with tax, tip, and shared items is still a tedious manual process.
 
