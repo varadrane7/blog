@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://blog.varadrane.com/",
   author: "Varad Rane",
   profile: "https://varadrane.com/",
-  desc: "A software engineer writing about projects, engineering, and everything in between.",
+  desc: "Engineering notes, systems, LLM infrastructure, and markets.",
   title: "Varad Rane",
   ogImage: "og.png",
   lightAndDarkMode: true,
