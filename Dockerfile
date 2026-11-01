@@ -1,9 +1,9 @@
 # Base stage for building the static files
-FROM node:lts AS base
+FROM node:22 AS base
 WORKDIR /app
 
-# Install pnpm
-RUN corepack enable && corepack prepare pnpm@latest --activate
+# Install pnpm (pinned; node images newer than 24 no longer ship corepack)
+RUN npm install -g pnpm@10.34.9
 
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN pnpm install --frozen-lockfile
