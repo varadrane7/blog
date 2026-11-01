@@ -4,7 +4,7 @@ pubDatetime: 2026-05-28T14:36:00Z
 modDatetime: 2026-08-17T17:10:00Z
 title: "SplitSync: A Privacy-First, Proportional Bill Splitter for Splitwise"
 slug: splitsync
-featured: true
+featured: false
 draft: false
 tags:
   - nextjs
