@@ -4,7 +4,7 @@ pubDatetime: 2026-11-05T13:00:00Z
 title: "When the Transit API Says Nothing: Building a Bus ETA Service With Honest Fallbacks"
 slug: njt-bus-eta-fallbacks
 featured: true
-draft: true
+draft: false
 tags:
   - python
   - gtfs
