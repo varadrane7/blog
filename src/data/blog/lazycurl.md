@@ -3,7 +3,7 @@ author: Varad
 pubDatetime: 2025-12-08T10:00:00Z
 title: "LazyCurl: The Terminal Interface for Curl and API Exploration"
 slug: lazycurl
-featured: true
+featured: false
 draft: false
 tags:
   - golang
