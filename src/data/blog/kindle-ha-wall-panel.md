@@ -4,7 +4,7 @@ pubDatetime: 2026-11-10T13:00:00Z
 title: "A Basic Kindle as a Home Assistant Wall Panel: Designing for E-ink and for Roommates"
 slug: kindle-home-assistant-wall-panel
 featured: true
-draft: true
+draft: false
 ogImage: ../../assets/images/kindle/01-home.png
 tags:
   - home-assistant
